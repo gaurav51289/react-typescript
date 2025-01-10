@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
 import 'h8k-components';
-import NoteManager from './components/NoteManager';
+import ChatWindow from './components/ChatWindow';
 
-const title = "Note Manager";
+const title = "AI Assistant";
 
 function App() {
   return (
     <div className="App">
       <h8k-navbar header={title} data-testid="navbar"></h8k-navbar>
-      <NoteManager />
+      <ChatWindow />
     </div>
   );
 }
